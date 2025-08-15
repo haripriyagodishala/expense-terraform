@@ -35,8 +35,8 @@ variable "is_peering_required" {
   default = false
 }
 
-variable "mysql_sg_tags" {
-  default = {
-    Component = "mysql"
-  }
-}
+# variable "mysql_sg_tags" {
+#   default = {
+#     Component = "mysql"
+#   }
+# }
